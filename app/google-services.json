@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "772135272391",
+    "firebase_url": "https://library-management-nvrsettle.firebaseio.com",
+    "project_id": "library-management-nvrsettle",
+    "storage_bucket": "library-management-nvrsettle.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:772135272391:android:2ebe923c8c3cc785",
+        "android_client_info": {
+          "package_name": "xyz.nvrsettle.librarymanagement"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "772135272391-8usrq01resjg4ij5qbp12ahat7ikgmel.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDkvkP9DkjOikVyWavkc3-7qwWjg7asos0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="xyz.nvrsettle.librarymanagement.Acitivites.BooksActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="6dp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark" >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="All Books"
+            android:textSize="25sp"
+            android:textColor="@color/white"
+            android:id="@+id/tx"
+            />
+    </android.support.v7.widget.Toolbar>
+
+    <!-- Editext for Search -->
+    <EditText android:id="@+id/inputSearch"
+        android:layout_below="@+id/toolbar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Search books by ID, Name, Etc.."
+        android:inputType="textAutoComplete"/>
+
+    <ListView
+        android:layout_below="@id/inputSearch"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/button"
+        android:id="@+id/listViewAndroid"
+        android:clipToPadding="false"
+        android:divider="@android:color/transparent"
+        />
+
+    <Button
+        android:visibility="gone"
+        android:id="@+id/button"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/white"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Generate Excel Sheet"/>
+
+
+</RelativeLayout>
